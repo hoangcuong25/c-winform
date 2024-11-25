@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\cw\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|C:\\Users\\Admin\\source\\repos\\cw\\cw\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|C:\\Users\\Admin\\source\\repos\\cw\\cw\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|C:\\Users\\Admin\\source\\repos\\cw\\cw\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|C:\\Users\\Admin\\source\\repos\\cw\\cw\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|C:\\Users\\Admin\\source\\repos\\cw\\cw\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|c:\\users\\admin\\source\\repos\\cw\\cw\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|C:\\Users\\Admin\\source\\repos\\cw\\cw\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Creator.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\cw\\cw\\Creator.cs",
+              "RelativeDocumentMoniker": "cw\\Creator.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\cw\\cw\\Creator.cs",
+              "RelativeToolTip": "cw\\Creator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:27:58.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\cw\\cw\\Question.cs",
+              "RelativeDocumentMoniker": "cw\\Question.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\cw\\cw\\Question.cs",
+              "RelativeToolTip": "cw\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:27:36.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\cw\\cw\\Player.cs",
+              "RelativeDocumentMoniker": "cw\\Player.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\cw\\cw\\Player.cs",
+              "RelativeToolTip": "cw\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:26:58.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Player.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\cw\\cw\\Player.cs",
+              "RelativeDocumentMoniker": "cw\\Player.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\cw\\cw\\Player.cs [Design]",
+              "RelativeToolTip": "cw\\Player.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:26:30.55Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Creator.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\cw\\cw\\Creator.cs",
+              "RelativeDocumentMoniker": "cw\\Creator.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\cw\\cw\\Creator.cs [Design]",
+              "RelativeToolTip": "cw\\Creator.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:25:59.267Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\cw\\cw\\Login.cs",
+              "RelativeDocumentMoniker": "cw\\Login.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\cw\\cw\\Login.cs",
+              "RelativeToolTip": "cw\\Login.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAvwCQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:23:48.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\cw\\cw\\Login.cs",
+              "RelativeDocumentMoniker": "cw\\Login.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\cw\\cw\\Login.cs [Design]",
+              "RelativeToolTip": "cw\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:20:26.667Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
