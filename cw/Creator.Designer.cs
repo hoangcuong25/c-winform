@@ -47,9 +47,9 @@
             this.label1.BackColor = System.Drawing.Color.Snow;
             this.label1.Location = new System.Drawing.Point(136, 98);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "Question";
             // 
             // label2
             // 
@@ -57,9 +57,9 @@
             this.label2.BackColor = System.Drawing.Color.Snow;
             this.label2.Location = new System.Drawing.Point(136, 272);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(42, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.label2.Text = "Answer";
             // 
             // rt_Question
             // 
@@ -125,10 +125,11 @@
             this.bt_Display.TabIndex = 8;
             this.bt_Display.Text = "Display";
             this.bt_Display.UseVisualStyleBackColor = false;
+            this.bt_Display.Click += new System.EventHandler(this.bt_Display_Click);
             // 
             // tb_Index
             // 
-            this.tb_Index.Location = new System.Drawing.Point(139, 434);
+            this.tb_Index.Location = new System.Drawing.Point(139, 442);
             this.tb_Index.Name = "tb_Index";
             this.tb_Index.Size = new System.Drawing.Size(100, 20);
             this.tb_Index.TabIndex = 9;

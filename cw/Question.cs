@@ -3,20 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace cw
 {
     public class Question
-
     {
-        public string question;
-        public string answer;
+        public string QuestionText { get; set; }
 
-        public Question(string question, string answer)
+        public Question(string question)
         {
-            this.question = question;
-            this.answer = answer;
-        }
+            QuestionText = question;
+        }  
+    }
+    public class MultipleChoiceQuestion : Question
+    {
+        public string[] Choices { get; set; }
+        public string CorrectAnswer { get; set; }
 
+        public MultipleChoiceQuestion(string question, string[] choices, string correctAnswer) : base(question)
+        {
+            Choices = choices;
+            CorrectAnswer = correctAnswer;
+        }
     }
 }

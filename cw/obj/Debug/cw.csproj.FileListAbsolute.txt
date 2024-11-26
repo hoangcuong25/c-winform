@@ -1,0 +1,11 @@
+C:\Users\Admin\source\repos\cw\cw\bin\Debug\cw.exe.config
+C:\Users\Admin\source\repos\cw\cw\bin\Debug\cw.exe
+C:\Users\Admin\source\repos\cw\cw\bin\Debug\cw.pdb
+C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.Creator.resources
+C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.Login.resources
+C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.Properties.Resources.resources
+C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.exe
+C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.pdb
