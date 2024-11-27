@@ -44,6 +44,7 @@
             this.cb_QuestionType = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.rt_correctAnswer = new System.Windows.Forms.RichTextBox();
+            this.bt_Exit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -191,6 +192,17 @@
             this.rt_correctAnswer.TabIndex = 15;
             this.rt_correctAnswer.Text = "";
             // 
+            // bt_Exit
+            // 
+            this.bt_Exit.BackColor = System.Drawing.Color.Red;
+            this.bt_Exit.Location = new System.Drawing.Point(291, 408);
+            this.bt_Exit.Name = "bt_Exit";
+            this.bt_Exit.Size = new System.Drawing.Size(75, 23);
+            this.bt_Exit.TabIndex = 16;
+            this.bt_Exit.Text = "Exit";
+            this.bt_Exit.UseVisualStyleBackColor = false;
+            this.bt_Exit.Click += new System.EventHandler(this.bt_Exit_Click);
+            // 
             // Creator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -198,6 +210,7 @@
             this.BackColor = System.Drawing.Color.Chocolate;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 560);
+            this.Controls.Add(this.bt_Exit);
             this.Controls.Add(this.rt_correctAnswer);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.cb_QuestionType);
@@ -237,5 +250,6 @@
         private System.Windows.Forms.ComboBox cb_QuestionType;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.RichTextBox rt_correctAnswer;
+        private System.Windows.Forms.Button bt_Exit;
     }
 }

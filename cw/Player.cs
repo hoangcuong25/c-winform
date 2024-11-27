@@ -22,9 +22,10 @@ namespace cw
 
         int grade = 0;
         int indexQuestion = 0;
-
+        Stopwatch stopwatch = new Stopwatch();
         private void bt_Play_Click(object sender, EventArgs e)
         {
+            stopwatch.Start();
             if (question_bank.Count == 0)
             {
                 Console.WriteLine("No questions available.");
@@ -98,7 +99,7 @@ namespace cw
                     }
                     else if (question_bank[indexQuestion] is TrueFalseQuestion)
                     {
-                        rt_Question.Text += "  True or False?\n";
+                        rt_Question.Text += "  true or false?\n";
                     }
                     else if (question_bank[indexQuestion] is OpenEndedQuestion)
                     {
@@ -107,15 +108,20 @@ namespace cw
                 }
                 else
                 {
-                   string yourGrade = $"Quiz Complete! Your Grade: {grade}/{question_bank.Count}";
-                   MessageBox.Show(yourGrade);
+                    stopwatch.Stop();
+                    string yourGrade = $"Quiz Complete! Your Grade: {grade}/{question_bank.Count}; Time spent: {stopwatch.Elapsed.TotalMinutes:F2} minutes.";
+                    MessageBox.Show(yourGrade);
 
-                   indexQuestion = 0;
-                   grade = 0;
-                   rt_Question.Clear();
+                    indexQuestion = 0;
+                    grade = 0;
+                    rt_Question.Clear();
                 }
-                
             }
+        }
+
+        private void bt_Quit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

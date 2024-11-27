@@ -249,5 +249,10 @@ namespace cw
                 MessageBox.Show("Something Wrong");
             }
         }
+
+        private void bt_Exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

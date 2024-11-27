@@ -33,9 +33,9 @@
             this.rt_Question = new System.Windows.Forms.RichTextBox();
             this.bt_Play = new System.Windows.Forms.Button();
             this.bt_Next = new System.Windows.Forms.Button();
-            this.bt_Finish = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.bt_Quit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // rt_Answer
@@ -76,16 +76,6 @@
             this.bt_Next.UseVisualStyleBackColor = false;
             this.bt_Next.Click += new System.EventHandler(this.bt_Next_Click);
             // 
-            // bt_Finish
-            // 
-            this.bt_Finish.BackColor = System.Drawing.Color.Aqua;
-            this.bt_Finish.Location = new System.Drawing.Point(363, 259);
-            this.bt_Finish.Name = "bt_Finish";
-            this.bt_Finish.Size = new System.Drawing.Size(75, 23);
-            this.bt_Finish.TabIndex = 4;
-            this.bt_Finish.Text = "Finish Game";
-            this.bt_Finish.UseVisualStyleBackColor = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -104,15 +94,26 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Question";
             // 
+            // bt_Quit
+            // 
+            this.bt_Quit.BackColor = System.Drawing.Color.Aqua;
+            this.bt_Quit.Location = new System.Drawing.Point(359, 259);
+            this.bt_Quit.Name = "bt_Quit";
+            this.bt_Quit.Size = new System.Drawing.Size(75, 23);
+            this.bt_Quit.TabIndex = 7;
+            this.bt_Quit.Text = "Quit Game";
+            this.bt_Quit.UseVisualStyleBackColor = false;
+            this.bt_Quit.Click += new System.EventHandler(this.bt_Quit_Click);
+            // 
             // Player
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.bt_Quit);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.bt_Finish);
             this.Controls.Add(this.bt_Next);
             this.Controls.Add(this.bt_Play);
             this.Controls.Add(this.rt_Question);
@@ -130,8 +131,8 @@
         private System.Windows.Forms.RichTextBox rt_Question;
         private System.Windows.Forms.Button bt_Play;
         private System.Windows.Forms.Button bt_Next;
-        private System.Windows.Forms.Button bt_Finish;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button bt_Quit;
     }
 }
