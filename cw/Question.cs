@@ -7,7 +7,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace cw
 {
-    public class Question
+    public abstract class Question
     {
         public string QuestionText { get; set; }
 
@@ -34,6 +34,16 @@ namespace cw
         public OpenEndedQuestion(string question, string[] correctAnswers) : base(question)
         {
             CorrectAnswers = correctAnswers;
+        }
+    }
+    public class TrueFalseQuestion : Question
+    {
+
+        public string IsTrue { get; set; }
+
+        public TrueFalseQuestion(string question, string isTrue) : base(question)
+        {
+            IsTrue = isTrue;
         }
     }
 }
