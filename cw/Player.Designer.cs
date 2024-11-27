@@ -36,6 +36,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.bt_Quit = new System.Windows.Forms.Button();
+            this.bt_ShowQuestion = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // rt_Answer
@@ -96,8 +97,8 @@
             // 
             // bt_Quit
             // 
-            this.bt_Quit.BackColor = System.Drawing.Color.Aqua;
-            this.bt_Quit.Location = new System.Drawing.Point(359, 259);
+            this.bt_Quit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bt_Quit.Location = new System.Drawing.Point(533, 260);
             this.bt_Quit.Name = "bt_Quit";
             this.bt_Quit.Size = new System.Drawing.Size(75, 23);
             this.bt_Quit.TabIndex = 7;
@@ -105,12 +106,24 @@
             this.bt_Quit.UseVisualStyleBackColor = false;
             this.bt_Quit.Click += new System.EventHandler(this.bt_Quit_Click);
             // 
+            // bt_ShowQuestion
+            // 
+            this.bt_ShowQuestion.BackColor = System.Drawing.Color.Aqua;
+            this.bt_ShowQuestion.Location = new System.Drawing.Point(396, 259);
+            this.bt_ShowQuestion.Name = "bt_ShowQuestion";
+            this.bt_ShowQuestion.Size = new System.Drawing.Size(75, 23);
+            this.bt_ShowQuestion.TabIndex = 8;
+            this.bt_ShowQuestion.Text = "Show All Question";
+            this.bt_ShowQuestion.UseVisualStyleBackColor = false;
+            this.bt_ShowQuestion.Click += new System.EventHandler(this.bt_ShowQuestion_Click);
+            // 
             // Player
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.bt_ShowQuestion);
             this.Controls.Add(this.bt_Quit);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -134,5 +147,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button bt_Quit;
+        private System.Windows.Forms.Button bt_ShowQuestion;
     }
 }

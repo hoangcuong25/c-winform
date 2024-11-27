@@ -123,6 +123,47 @@ namespace cw
         {
             this.Close();
         }
+
+        private void bt_ShowQuestion_Click(object sender, EventArgs e)
+        {
+            if (question_bank.Count == 0)
+            {
+                MessageBox.Show("No questions available to show.");
+                return;
+            }
+
+            rt_Question.Clear();
+
+            for (int i = 0; i < question_bank.Count; i++)
+            {
+                rt_Question.Text += $"Question {i + 1}: {question_bank[i].QuestionText}\n";
+
+                if (question_bank[i] is MultipleChoiceQuestion mcq)
+                {
+                    for (int j = 0; j < mcq.Choices.Length; j++)
+                    {
+                        rt_Question.Text += $"  Choice {j + 1}: {mcq.Choices[j]}\n";
+                    }
+                    rt_Question.Text += $"  Correct Choice: {mcq.CorrectAnswer}\n\n";
+                }
+                else if (question_bank[i] is TrueFalseQuestion tfq)
+                {
+                    rt_Question.Text += $"  True or False?\n";
+                    rt_Question.Text += $"  Correct Answer: {(tfq.IsTrue.ToLower() == "true" ? "True" : "False")}\n\n";
+                }
+                else if (question_bank[i] is OpenEndedQuestion oeq)
+                {
+                    rt_Question.Text += "(Open-ended question)\n";
+                    rt_Question.Text += "  Possible Correct Answers:\n";
+
+                    for (int j = 0; j < oeq.CorrectAnswers.Length; j++)
+                    {
+                        rt_Question.Text += $"    - {oeq.CorrectAnswers[j]}\n";
+                    }
+                    rt_Question.Text += "\n";
+                }
+            }
+        }
     }
 }
 
