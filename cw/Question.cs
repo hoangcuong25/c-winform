@@ -14,7 +14,7 @@ namespace cw
         public Question(string question)
         {
             QuestionText = question;
-        }  
+        }
     }
     public class MultipleChoiceQuestion : Question
     {
@@ -25,6 +25,15 @@ namespace cw
         {
             Choices = choices;
             CorrectAnswer = correctAnswer;
+        }
+    }
+    public class OpenEndedQuestion : Question
+    {
+        public string[] CorrectAnswers { get; set; }
+
+        public OpenEndedQuestion(string question, string[] correctAnswers) : base(question)
+        {
+            CorrectAnswers = correctAnswers;
         }
     }
 }
