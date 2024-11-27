@@ -22,8 +22,8 @@ namespace cw
         {
             try
             {
-                string questionType = cb_QuestionType.Text;
-                string question = rt_Question.Text;
+                string questionType = cb_QuestionType.Text.Trim();
+                string question = rt_Question.Text.Trim();
 
                 if (string.IsNullOrWhiteSpace(rt_Question.Text))
                 {
@@ -46,6 +46,7 @@ namespace cw
                     }
 
                     string[] lines = rt_Answer.Lines;
+
                     if (lines.Length != 4)
                     {
                         MessageBox.Show("Please provide exactly 4 choices.");
@@ -111,7 +112,7 @@ namespace cw
                         rt_Display.Text += $"  Choice {j + 1}: {mcq.Choices[j]}\n";
                     }
 
-                    rt_Display.Text += $"  Correct Answer: {mcq.CorrectAnswer}\n\n";
+                    rt_Display.Text += $"  Correct Choice: {mcq.CorrectAnswer}\n\n";
                 }
                 else if (question_bank[i] is OpenEndedQuestion oeq)
                 {
@@ -210,11 +211,11 @@ namespace cw
                         mcq.Choices[i] = lines[i];
                     }
 
-                    //if (!lines.Contains(rt_correctAnswer.Text))
-                    //{
-                    //    MessageBox.Show("The correct answer must match one of the provided choices.");
-                    //    return;
-                    //}
+                    if (!lines.Contains(rt_correctAnswer.Text))
+                    {
+                        MessageBox.Show("The correct answer must match one of the provided choices.");
+                        return;
+                    }
 
                     mcq.CorrectAnswer = rt_correctAnswer.Text;
                 }

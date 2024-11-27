@@ -9,3 +9,4 @@ C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.csproj.GenerateResource.cache
 C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.exe
 C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.pdb
+C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.Player.resources
