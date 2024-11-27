@@ -110,6 +110,7 @@
             this.bt_Delete.TabIndex = 6;
             this.bt_Delete.Text = "Delete";
             this.bt_Delete.UseVisualStyleBackColor = false;
+            this.bt_Delete.Click += new System.EventHandler(this.bt_Delete_Click);
             // 
             // bt_Edit
             // 
@@ -120,6 +121,7 @@
             this.bt_Edit.TabIndex = 7;
             this.bt_Edit.Text = "Edit";
             this.bt_Edit.UseVisualStyleBackColor = false;
+            this.bt_Edit.Click += new System.EventHandler(this.bt_Edit_Click);
             // 
             // bt_Display
             // 
