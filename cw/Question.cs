@@ -19,9 +19,9 @@ namespace cw
     public class MultipleChoiceQuestion : Question
     {
         public string[] Choices { get; set; }
-        public string CorrectAnswer { get; set; }
+        public int CorrectAnswer { get; set; }
 
-        public MultipleChoiceQuestion(string question, string[] choices, string correctAnswer) : base(question)
+        public MultipleChoiceQuestion(string question, string[] choices, int correctAnswer) : base(question)
         {
             Choices = choices;
             CorrectAnswer = correctAnswer;

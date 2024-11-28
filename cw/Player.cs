@@ -54,68 +54,74 @@ namespace cw
 
         private void bt_Next_Click(object sender, EventArgs e)
         {
-            if (indexQuestion < question_bank.Count)
+            try
             {
-                if (question_bank[indexQuestion] is MultipleChoiceQuestion mcq)
-                {
-                    if (rt_Answer.Text == mcq.CorrectAnswer)
-                    {
-                        grade++;
-                    }
-                }
-                else if (question_bank[indexQuestion] is TrueFalseQuestion tfq)
-                {
-                    if (rt_Answer.Text == tfq.IsTrue)
-                    {
-                        grade++;
-                    }
-                }
-                else if (question_bank[indexQuestion] is OpenEndedQuestion oeq)
-                {
-                    for (int j = 0; j < oeq.CorrectAnswers.Length; j++)
-                    {
-                        if (rt_Answer.Text == oeq.CorrectAnswers[j])
-                        {
-                            grade++;
-                            break;
-                        }
-                    }
-                }
-                
-                rt_Answer.Clear();
-
-                indexQuestion++;
-
                 if (indexQuestion < question_bank.Count)
                 {
-                    rt_Question.Text = question_bank[indexQuestion].QuestionText;
-
-                    if (question_bank[indexQuestion] is MultipleChoiceQuestion MCQ)
+                    if (question_bank[indexQuestion] is MultipleChoiceQuestion mcq)
                     {
-                        for (int j = 0; j < MCQ.Choices.Length; j++)
+                        if (Convert.ToInt32(rt_Answer.Text) == mcq.CorrectAnswer)
                         {
-                            rt_Question.Text += $"  Choice {j + 1}: {MCQ.Choices[j]}\n";
+                            grade++;
                         }
                     }
-                    else if (question_bank[indexQuestion] is TrueFalseQuestion)
+                    else if (question_bank[indexQuestion] is TrueFalseQuestion tfq)
                     {
-                        rt_Question.Text += "  true or false?\n";
+                        if (rt_Answer.Text == tfq.IsTrue)
+                        {
+                            grade++;
+                        }
                     }
-                    else if (question_bank[indexQuestion] is OpenEndedQuestion)
+                    else if (question_bank[indexQuestion] is OpenEndedQuestion oeq)
                     {
-                        rt_Question.Text += "\n(Open-ended question, write your answer in Answer Box)\n";
+                        for (int j = 0; j < oeq.CorrectAnswers.Length; j++)
+                        {
+                            if (rt_Answer.Text == oeq.CorrectAnswers[j])
+                            {
+                                grade++;
+                                break;
+                            }
+                        }
                     }
-                }
-                else
-                {
-                    stopwatch.Stop();
-                    string yourGrade = $"Quiz Complete! Your Grade: {grade}/{question_bank.Count}; Time spent: {stopwatch.Elapsed.TotalMinutes:F2} minutes.";
-                    MessageBox.Show(yourGrade);
 
-                    indexQuestion = 0;
-                    grade = 0;
-                    rt_Question.Clear();
+                    rt_Answer.Clear();
+
+                    indexQuestion++;
+
+                    if (indexQuestion < question_bank.Count)
+                    {
+                        rt_Question.Text = question_bank[indexQuestion].QuestionText;
+
+                        if (question_bank[indexQuestion] is MultipleChoiceQuestion MCQ)
+                        {
+                            for (int j = 0; j < MCQ.Choices.Length; j++)
+                            {
+                                rt_Question.Text += $"  Choice {j + 1}: {MCQ.Choices[j]}\n";
+                            }
+                        }
+                        else if (question_bank[indexQuestion] is TrueFalseQuestion)
+                        {
+                            rt_Question.Text += "  true or false?\n";
+                        }
+                        else if (question_bank[indexQuestion] is OpenEndedQuestion)
+                        {
+                            rt_Question.Text += "\n(Open-ended question, write your answer in Answer Box)\n";
+                        }
+                    }
+                    else
+                    {
+                        stopwatch.Stop();
+                        string yourGrade = $"Quiz Complete! Your Grade: {grade}/{question_bank.Count}; Time spent: {stopwatch.Elapsed.TotalMinutes:F2} minutes.";
+                        MessageBox.Show(yourGrade);
+
+                        indexQuestion = 0;
+                        grade = 0;
+                        rt_Question.Clear();
+                    }
                 }
+            } catch
+            {
+                MessageBox.Show("Something Wrong");
             }
         }
 

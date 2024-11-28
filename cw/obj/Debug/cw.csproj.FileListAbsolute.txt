@@ -10,3 +10,8 @@ C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.exe
 C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.pdb
 C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.Player.resources
+C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.MCQ.resources
+C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.OEQ.resources
+C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.TFQ.resources
+C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.EditMCQ.resources
+C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.EditOEQ.resources

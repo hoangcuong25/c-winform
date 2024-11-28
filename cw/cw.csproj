@@ -52,11 +52,41 @@
     <Compile Include="Creator.Designer.cs">
       <DependentUpon>Creator.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditMCQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditMCQ.Designer.cs">
+      <DependentUpon>EditMCQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditOEQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditOEQ.Designer.cs">
+      <DependentUpon>EditOEQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditTFQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditTFQ.Designer.cs">
+      <DependentUpon>EditTFQ.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MCQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCQ.Designer.cs">
+      <DependentUpon>MCQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OEQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OEQ.Designer.cs">
+      <DependentUpon>OEQ.cs</DependentUpon>
     </Compile>
     <Compile Include="Player.cs">
       <SubType>Form</SubType>
@@ -67,11 +97,29 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Question.cs" />
+    <Compile Include="TFQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TFQ.Designer.cs">
+      <DependentUpon>TFQ.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Creator.resx">
       <DependentUpon>Creator.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EditMCQ.resx">
+      <DependentUpon>EditMCQ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditOEQ.resx">
+      <DependentUpon>EditOEQ.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCQ.resx">
+      <DependentUpon>MCQ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OEQ.resx">
+      <DependentUpon>OEQ.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Player.resx">
       <DependentUpon>Player.cs</DependentUpon>
@@ -85,6 +133,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="TFQ.resx">
+      <DependentUpon>TFQ.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
