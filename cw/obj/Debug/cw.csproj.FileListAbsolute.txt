@@ -15,3 +15,4 @@ C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.OEQ.resources
 C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.TFQ.resources
 C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.EditMCQ.resources
 C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.EditOEQ.resources
+C:\Users\Admin\source\repos\cw\cw\obj\Debug\cw.EditTFQ.resources

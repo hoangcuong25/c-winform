@@ -60,14 +60,14 @@ namespace cw
                 {
                     if (question_bank[indexQuestion] is MultipleChoiceQuestion mcq)
                     {
-                        if (Convert.ToInt32(rt_Answer.Text) == mcq.CorrectAnswer)
+                        if (Convert.ToInt32(rt_Answer.Text) == mcq.CorrectAnswer + 1)
                         {
                             grade++;
                         }
                     }
                     else if (question_bank[indexQuestion] is TrueFalseQuestion tfq)
                     {
-                        if (rt_Answer.Text == tfq.IsTrue)
+                        if (rt_Answer.Text.Trim().ToLower() == tfq.IsTrue)
                         {
                             grade++;
                         }
@@ -150,7 +150,7 @@ namespace cw
                     {
                         rt_Question.Text += $"  Choice {j + 1}: {mcq.Choices[j]}\n";
                     }
-                    rt_Question.Text += $"  Correct Choice: {mcq.CorrectAnswer}\n\n";
+                    rt_Question.Text += $"  Correct Choice: {mcq.CorrectAnswer + 1}\n\n";
                 }
                 else if (question_bank[i] is TrueFalseQuestion tfq)
                 {

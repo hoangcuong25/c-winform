@@ -16,7 +16,7 @@ namespace cw
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Creator());
+            Application.Run(new Login());
         }
     }
 }

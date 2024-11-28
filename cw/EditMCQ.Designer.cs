@@ -46,7 +46,7 @@
             this.rt_Display = new System.Windows.Forms.RichTextBox();
             this.bt_Display = new System.Windows.Forms.Button();
             this.tb_Index = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // bt_Exit
@@ -198,14 +198,14 @@
             this.tb_Index.Size = new System.Drawing.Size(124, 20);
             this.tb_Index.TabIndex = 30;
             // 
-            // label7
+            // label8
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(167, 414);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(25, 13);
-            this.label7.TabIndex = 31;
-            this.label7.Text = "Edit";
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(150, 424);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(113, 13);
+            this.label8.TabIndex = 40;
+            this.label8.Text = "Edit Question Number:";
             // 
             // EditMCQ
             // 
@@ -213,7 +213,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(835, 506);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.tb_Index);
             this.Controls.Add(this.bt_Display);
             this.Controls.Add(this.rt_Display);
@@ -257,6 +257,6 @@
         private System.Windows.Forms.RichTextBox rt_Display;
         private System.Windows.Forms.Button bt_Display;
         private System.Windows.Forms.TextBox tb_Index;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
     }
 }

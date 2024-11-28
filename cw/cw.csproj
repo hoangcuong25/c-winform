@@ -112,6 +112,9 @@
     <EmbeddedResource Include="EditOEQ.resx">
       <DependentUpon>EditOEQ.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EditTFQ.resx">
+      <DependentUpon>EditTFQ.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>

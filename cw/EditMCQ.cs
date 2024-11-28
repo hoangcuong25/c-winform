@@ -68,6 +68,8 @@ namespace cw
                     mcq.Choices = choices;
                     mcq.CorrectAnswer = correctAnswer;
 
+                    MessageBox.Show("Multiple Choice Question updated successfully!");
+
                 }
                 else
                 {
