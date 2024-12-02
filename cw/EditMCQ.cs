@@ -17,12 +17,15 @@ namespace cw
         {
             InitializeComponent();
             this.question_bank = question_bank;
+
+            display();
         }
 
         private void bt_Exit_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+        
 
         private void bt_Edit_Click(object sender, EventArgs e)
         {
@@ -69,6 +72,7 @@ namespace cw
                     mcq.CorrectAnswer = correctAnswer;
 
                     MessageBox.Show("Multiple Choice Question updated successfully!");
+                    display();
 
                 }
                 else
@@ -82,7 +86,7 @@ namespace cw
             
         }
 
-        private void bt_Display_Click(object sender, EventArgs e)
+        private void display()
         {
             rt_Display.Clear();
             for (int i = 0; i < question_bank.Count; i++)

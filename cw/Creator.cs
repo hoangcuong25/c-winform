@@ -26,23 +26,26 @@ namespace cw
             {
                 MCQ form_MCQ = new MCQ(question_bank);
                 form_MCQ.ShowDialog();
+                display();
             }
             else if (questionType == "Open-Ended")
             {
                 OEQ form_OEQ = new OEQ(question_bank);
                 form_OEQ.ShowDialog();
+                display();
             }
             else if (questionType == "True/False")
             {
                 TFQ form_TFQ = new TFQ(question_bank);
                 form_TFQ.ShowDialog();
+                display();
             } else
             {
                 MessageBox.Show("Chose Type Of Question You Want To Add");
             }
         }
 
-        private void bt_Display_Click(object sender, EventArgs e)
+        private void display()
         {
             rt_Display.Clear();
             for (int i = 0; i < question_bank.Count; i++)
@@ -102,6 +105,7 @@ namespace cw
 
                 question_bank.RemoveAt(index);
                 MessageBox.Show("Deleted successful");
+                display();
             } catch 
             {
                 MessageBox.Show("Something Wrong");
@@ -117,16 +121,19 @@ namespace cw
             {
                 EditMCQ form_EditMCQ = new EditMCQ(question_bank);
                 form_EditMCQ.ShowDialog();
+                display();
             }
             else if (questionType == "Open-Ended")
             {
                 EditOEQ form_EditOEQ = new EditOEQ(question_bank);
                 form_EditOEQ.ShowDialog();
+                display();
             }
             else if (questionType == "True/False")
             {
                 EditTFQ form_EditTFQ = new EditTFQ(question_bank);
                 form_EditTFQ.ShowDialog();
+                display();
             }
             else
             {

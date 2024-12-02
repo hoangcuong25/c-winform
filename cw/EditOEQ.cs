@@ -17,9 +17,11 @@ namespace cw
         {
             InitializeComponent();
             this.question_bank = question_bank;
+
+            display();
         }
 
-        private void bt_Display_Click(object sender, EventArgs e)
+        private void display()
         {
             rt_Display.Clear();
             for (int i = 0; i < question_bank.Count; i++)
@@ -81,6 +83,7 @@ namespace cw
                     oeq.QuestionText = rt_Question.Text;
 
                     MessageBox.Show("Open-Ended Question updated successfully!");
+                    display();
                 }
                 else
                 {

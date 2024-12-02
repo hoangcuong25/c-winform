@@ -17,6 +17,8 @@ namespace cw
         {
             InitializeComponent();
             this.question_bank = question_bank;
+
+            display();
         }
 
         private void bt_Exit_Click(object sender, EventArgs e)
@@ -24,7 +26,7 @@ namespace cw
             this.Close();
         }
 
-        private void bt_Display_Click(object sender, EventArgs e)
+        private void display()
         {
             rt_Display.Clear();
             for (int i = 0; i < question_bank.Count; i++)
@@ -75,6 +77,9 @@ namespace cw
 
                     tfq.IsTrue = correctAnswer;
                     tfq.QuestionText = rt_Question.Text;
+
+                    MessageBox.Show("True False Question updated successfully!");
+                    display();
                 }
             }
             catch

@@ -180,16 +180,6 @@
             this.rt_Display.TabIndex = 28;
             this.rt_Display.Text = "";
             // 
-            // bt_Display
-            // 
-            this.bt_Display.BackColor = System.Drawing.Color.Gray;
-            this.bt_Display.Location = new System.Drawing.Point(604, 368);
-            this.bt_Display.Name = "bt_Display";
-            this.bt_Display.Size = new System.Drawing.Size(136, 23);
-            this.bt_Display.TabIndex = 29;
-            this.bt_Display.Text = "Display All Question";
-            this.bt_Display.UseVisualStyleBackColor = false;
-            this.bt_Display.Click += new System.EventHandler(this.bt_Display_Click);
             // 
             // tb_Index
             // 
