@@ -1,42 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\c-winform\\",
+  "WorkspaceRootPath": "C:\\Project\\c-winform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|d:\\c-winform\\cw\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|c:\\project\\c-winform\\cw\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|c:\\project\\c-winform\\cw\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|D:\\c-winform\\cw\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|c:\\project\\c-winform\\cw\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|C:\\Project\\c-winform\\cw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|C:\\Project\\c-winform\\cw\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|D:\\c-winform\\cw\\editoeq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|C:\\Project\\c-winform\\cw\\editoeq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\editoeq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|D:\\c-winform\\cw\\editmcq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|C:\\Project\\c-winform\\cw\\editmcq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\editmcq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|D:\\c-winform\\cw\\editoeq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|C:\\Project\\c-winform\\cw\\editoeq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\editoeq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|D:\\c-winform\\cw\\edittfq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|C:\\Project\\c-winform\\cw\\edittfq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\edittfq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|D:\\c-winform\\cw\\editmcq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|C:\\Project\\c-winform\\cw\\editmcq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\editmcq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|D:\\c-winform\\cw\\edittfq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|C:\\Project\\c-winform\\cw\\edittfq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\edittfq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|D:\\c-winform\\cw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,39 +58,63 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Project\\c-winform\\cw\\Player.cs",
+              "RelativeDocumentMoniker": "cw\\Player.cs",
+              "ToolTip": "C:\\Project\\c-winform\\cw\\Player.cs",
+              "RelativeToolTip": "cw\\Player.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAwwG0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T04:37:04.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs [Design]",
+              "DocumentMoniker": "C:\\Project\\c-winform\\cw\\Player.cs",
+              "RelativeDocumentMoniker": "cw\\Player.cs",
+              "ToolTip": "C:\\Project\\c-winform\\cw\\Player.cs [Design]",
+              "RelativeToolTip": "cw\\Player.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T04:37:03.322Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Creator.cs",
-              "DocumentMoniker": "D:\\c-winform\\cw\\Creator.cs",
+              "DocumentMoniker": "C:\\Project\\c-winform\\cw\\Creator.cs",
               "RelativeDocumentMoniker": "cw\\Creator.cs",
-              "ToolTip": "D:\\c-winform\\cw\\Creator.cs",
+              "ToolTip": "C:\\Project\\c-winform\\cw\\Creator.cs",
               "RelativeToolTip": "cw\\Creator.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAowJMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAgwJIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T06:55:10.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Creator.cs [Design]",
-              "DocumentMoniker": "D:\\c-winform\\cw\\Creator.cs",
+              "DocumentMoniker": "C:\\Project\\c-winform\\cw\\Creator.cs",
               "RelativeDocumentMoniker": "cw\\Creator.cs",
               "ToolTip": "D:\\c-winform\\cw\\Creator.cs [Design]",
-              "RelativeToolTip": "cw\\Creator.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T06:55:03.087Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "EditOEQ.cs",
-              "DocumentMoniker": "D:\\c-winform\\cw\\EditOEQ.cs",
+              "DocumentMoniker": "C:\\Project\\c-winform\\cw\\EditOEQ.cs",
               "RelativeDocumentMoniker": "cw\\EditOEQ.cs",
-              "ToolTip": "D:\\c-winform\\cw\\EditOEQ.cs",
+              "ToolTip": "C:\\Project\\c-winform\\cw\\EditOEQ.cs",
               "RelativeToolTip": "cw\\EditOEQ.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAkwFUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -90,22 +122,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "EditOEQ.cs [Design]",
-              "DocumentMoniker": "D:\\c-winform\\cw\\EditOEQ.cs",
+              "DocumentMoniker": "C:\\Project\\c-winform\\cw\\EditOEQ.cs",
               "RelativeDocumentMoniker": "cw\\EditOEQ.cs",
               "ToolTip": "D:\\c-winform\\cw\\EditOEQ.cs [Design]",
-              "RelativeToolTip": "cw\\EditOEQ.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T06:52:06.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "EditMCQ.cs",
-              "DocumentMoniker": "D:\\c-winform\\cw\\EditMCQ.cs",
+              "DocumentMoniker": "C:\\Project\\c-winform\\cw\\EditMCQ.cs",
               "RelativeDocumentMoniker": "cw\\EditMCQ.cs",
-              "ToolTip": "D:\\c-winform\\cw\\EditMCQ.cs",
+              "ToolTip": "C:\\Project\\c-winform\\cw\\EditMCQ.cs",
               "RelativeToolTip": "cw\\EditMCQ.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAgwEkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -113,22 +144,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "EditMCQ.cs [Design]",
-              "DocumentMoniker": "D:\\c-winform\\cw\\EditMCQ.cs",
+              "DocumentMoniker": "C:\\Project\\c-winform\\cw\\EditMCQ.cs",
               "RelativeDocumentMoniker": "cw\\EditMCQ.cs",
               "ToolTip": "D:\\c-winform\\cw\\EditMCQ.cs [Design]",
-              "RelativeToolTip": "cw\\EditMCQ.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T06:51:35.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "EditTFQ.cs",
-              "DocumentMoniker": "D:\\c-winform\\cw\\EditTFQ.cs",
+              "DocumentMoniker": "C:\\Project\\c-winform\\cw\\EditTFQ.cs",
               "RelativeDocumentMoniker": "cw\\EditTFQ.cs",
-              "ToolTip": "D:\\c-winform\\cw\\EditTFQ.cs",
+              "ToolTip": "C:\\Project\\c-winform\\cw\\EditTFQ.cs",
               "RelativeToolTip": "cw\\EditTFQ.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAkwFMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -136,26 +166,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "EditTFQ.cs [Design]",
-              "DocumentMoniker": "D:\\c-winform\\cw\\EditTFQ.cs",
+              "DocumentMoniker": "C:\\Project\\c-winform\\cw\\EditTFQ.cs",
               "RelativeDocumentMoniker": "cw\\EditTFQ.cs",
               "ToolTip": "D:\\c-winform\\cw\\EditTFQ.cs [Design]",
-              "RelativeToolTip": "cw\\EditTFQ.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T05:27:58.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\c-winform\\cw\\Program.cs",
+              "DocumentMoniker": "C:\\Project\\c-winform\\cw\\Program.cs",
               "RelativeDocumentMoniker": "cw\\Program.cs",
-              "ToolTip": "D:\\c-winform\\cw\\Program.cs",
+              "ToolTip": "C:\\Project\\c-winform\\cw\\Program.cs",
               "RelativeToolTip": "cw\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T05:25:23.959Z"
+              "WhenOpened": "2024-11-28T05:25:23.959Z",
+              "EditorCaption": ""
             }
           ]
         }

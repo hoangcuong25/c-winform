@@ -41,14 +41,15 @@ namespace cw
                 {
                     rt_Question.Text += $"  Choice {j + 1}: {mcq.Choices[j]}\n";
                 }
+                rt_Question.Text += "Please Choose 1-4";
             }
             else if (question_bank[0] is TrueFalseQuestion tfq)
             {
-                rt_Question.Text += "  True or False?\n";
+                rt_Question.Text += "\nPlease choose True or False?\n";
             }
             else if (question_bank[0] is OpenEndedQuestion oeq)
             {
-                rt_Question.Text += "  (Open-ended question, write your answer in Answer Box)\n";
+                rt_Question.Text += "\n(Open-ended question, write your answer in Answer Box)\n";
             }
         }
 
@@ -60,6 +61,11 @@ namespace cw
                 {
                     if (question_bank[indexQuestion] is MultipleChoiceQuestion mcq)
                     {
+                        if(Convert.ToInt32(rt_Answer.Text) <0 || Convert.ToInt32(rt_Answer.Text) > 4)
+                        {
+                            MessageBox.Show("Please Choose 1-4");
+                            return;
+                        }
                         if (Convert.ToInt32(rt_Answer.Text) == mcq.CorrectAnswer + 1)
                         {
                             grade++;
@@ -101,7 +107,7 @@ namespace cw
                         }
                         else if (question_bank[indexQuestion] is TrueFalseQuestion)
                         {
-                            rt_Question.Text += "  true or false?\n";
+                            rt_Question.Text += "\nPlease enter true or false?\n";
                         }
                         else if (question_bank[indexQuestion] is OpenEndedQuestion)
                         {

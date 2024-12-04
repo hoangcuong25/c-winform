@@ -145,6 +145,5 @@ namespace cw
         {
             this.Close();
         }
-        /
     }
 }
