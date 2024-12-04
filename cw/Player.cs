@@ -61,11 +61,12 @@ namespace cw
                 {
                     if (question_bank[indexQuestion] is MultipleChoiceQuestion mcq)
                     {
-                        if(Convert.ToInt32(rt_Answer.Text) <0 || Convert.ToInt32(rt_Answer.Text) > 4)
+                        if (!int.TryParse(rt_Answer.Text, out int selectedAnswer) || selectedAnswer < 1 || selectedAnswer > 4)
                         {
-                            MessageBox.Show("Please Choose 1-4");
+                            MessageBox.Show("Please enter a number between 1 and 4.");
                             return;
                         }
+
                         if (Convert.ToInt32(rt_Answer.Text) == mcq.CorrectAnswer + 1)
                         {
                             grade++;
@@ -73,7 +74,14 @@ namespace cw
                     }
                     else if (question_bank[indexQuestion] is TrueFalseQuestion tfq)
                     {
-                        if (rt_Answer.Text.Trim().ToLower() == tfq.IsTrue)
+                        string answer = rt_Answer.Text.Trim().ToLower();
+                        if (answer != "true" && answer != "false")
+                        {
+                            MessageBox.Show("Please enter 'true' or 'false'.");
+                            return;
+                        }
+
+                        if (answer == tfq.IsTrue.ToLower())
                         {
                             grade++;
                         }
@@ -82,6 +90,11 @@ namespace cw
                     {
                         for (int j = 0; j < oeq.CorrectAnswers.Length; j++)
                         {
+                            if (string.IsNullOrWhiteSpace(rt_Answer.Text))
+                            {
+                                MessageBox.Show("Please Enter Your Answer.");
+                                return;
+                            }
                             if (rt_Answer.Text == oeq.CorrectAnswers[j])
                             {
                                 grade++;
