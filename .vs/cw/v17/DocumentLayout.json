@@ -7,27 +7,27 @@
       "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|d:\\c-winform\\cw\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|D:\\c-winform\\cw\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|d:\\c-winform\\cw\\editoeq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|D:\\c-winform\\cw\\editoeq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\editoeq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|d:\\c-winform\\cw\\editmcq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|D:\\c-winform\\cw\\editmcq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\editmcq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|d:\\c-winform\\cw\\editoeq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|D:\\c-winform\\cw\\editoeq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\editoeq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|d:\\c-winform\\cw\\edittfq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|D:\\c-winform\\cw\\edittfq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\edittfq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|d:\\c-winform\\cw\\editmcq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|D:\\c-winform\\cw\\editmcq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E894DC35-6034-4AE6-A05F-6E61D0EDD79E}|cw\\cw.csproj|solutionrelative:cw\\editmcq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "cw\\Creator.cs",
               "ToolTip": "D:\\c-winform\\cw\\Creator.cs",
               "RelativeToolTip": "cw\\Creator.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAowJIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAowJMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T06:55:10.935Z",
               "EditorCaption": ""
@@ -74,8 +74,7 @@
               "ToolTip": "D:\\c-winform\\cw\\Creator.cs [Design]",
               "RelativeToolTip": "cw\\Creator.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T06:55:03.087Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-02T06:55:03.087Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "cw\\EditOEQ.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAkwFUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T06:52:12.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T06:52:12.35Z"
             },
             {
               "$type": "Document",
@@ -99,8 +97,7 @@
               "ToolTip": "D:\\c-winform\\cw\\EditOEQ.cs [Design]",
               "RelativeToolTip": "cw\\EditOEQ.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T06:52:06.976Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-02T06:52:06.976Z"
             },
             {
               "$type": "Document",
@@ -112,8 +109,7 @@
               "RelativeToolTip": "cw\\EditMCQ.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAgwEkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T06:51:38.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T06:51:38.775Z"
             },
             {
               "$type": "Document",
@@ -124,8 +120,7 @@
               "ToolTip": "D:\\c-winform\\cw\\EditMCQ.cs [Design]",
               "RelativeToolTip": "cw\\EditMCQ.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T06:51:35.493Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-02T06:51:35.493Z"
             },
             {
               "$type": "Document",
@@ -137,8 +132,7 @@
               "RelativeToolTip": "cw\\EditTFQ.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAkwFMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T05:28:00.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T05:28:00.85Z"
             },
             {
               "$type": "Document",
@@ -149,8 +143,7 @@
               "ToolTip": "D:\\c-winform\\cw\\EditTFQ.cs [Design]",
               "RelativeToolTip": "cw\\EditTFQ.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T05:27:58.501Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-28T05:27:58.501Z"
             },
             {
               "$type": "Document",
